@@ -1,0 +1,430 @@
+h1 {
+    font-family: actor;
+}
+
+h2 {
+    font-family: actor;
+}
+
+h3  {
+    font-family: actor;
+}
+
+h4 {
+    font-family: actor;
+}
+
+h5 {
+    font-size:16px; 
+    font-family: helvetica; 
+    font-weight:100;
+}
+
+a:hover {
+   font-weight:bold;
+    color:#000000;
+}
+
+a:vistited {
+
+    color:#000000;
+}
+
+.active {
+    font-weight:bold;
+}
+
+.float {
+    float:left;   
+}
+
+.clear {
+    clear:both;   
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li a {
+    color:#000000;
+    text-decoration: none;   
+}
+
+li a:hover {
+    text-decoration: none;   
+}
+
+
+nav {
+    padding-top:20px;   
+}
+
+
+.cart_amount > h6 {
+    margin-top:5px;   
+}
+
+.cart_price {
+    padding-right:10px;
+    border-right:1px solid black;
+}
+
+.cart_amount_icon {
+    margin-bottom:10px;   
+}
+
+div#owl-demo.owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.col-sm-offset-1.col-sm-2.logo_wrapper {
+    background-color:#000000;
+    height:100px;
+    margin-left:70px;
+    z-index:10;
+    top:0;
+    left:0;
+    position:absolute;
+    width:150px;
+}
+
+.links, .cart_amount {
+    margin-bottom:10px; 
+    letter-spacing: 1px;
+    z-index:10;
+    top:0;
+    left:0;
+    position:absolute;
+}
+
+
+ a:hover > div.col-sm-offset-1.col-sm-2.logo_wrapper {
+    background-color:#000000;
+    height:120px;
+    margin-left:70px;
+    z-index:10;
+    top:0;
+    left:0;
+    position:absolute;
+    width:150px;    
+}
+
+a:hover > div.col-sm-offset-1.col-sm-2.logo_wrapper > div.logo {
+    margin-top:28px;
+    margin-left:-4px;
+}
+
+.logo {
+   margin-top:8px;
+    margin-left:-4px;
+}
+
+.carousel_home {
+    margin-top:-112px;
+}
+
+
+
+
+.bottom_section_home {
+    
+}
+
+#shop {
+    border-top:4px solid #000000;
+}
+
+.shop_tag {
+    color:#ffffff;
+    background-color:#000000;
+}
+
+#items {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#items2 {
+    margin-top:60px;
+    margin-bottom:30px;
+}
+
+#items3 {
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.item_overview {
+    height:222px;
+    width:195;
+    border:1px solid #bcbec0;   
+}
+
+div.item_wrapper {
+    padding-right:0px; 
+    padding-left:0px;
+    width:260px;
+}
+
+.item_v_info {
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left:10px;
+    border-right:1px solid #bcbec0; 
+    border-bottom:1px solid #bcbec0; 
+    border-left:1px solid #bcbec0; 
+}
+
+.item_v {
+    background-color:#000000;
+     width:40px;
+    height:40px;
+    color:#ffffff;
+    text-align: center;
+    padding-top:3px;
+}
+
+div.col-sm-1.item_letter_tab {
+    padding-left:0px;   
+}
+
+.letter_vee {
+    padding-left:10px;
+}
+
+.cart {
+    margin-top:7px;  
+}
+
+div.col-sm-3.cart_active {
+    padding-left:0px; 
+    margin-top:7px;
+    display:block;
+    width:20px;
+    height:20px;
+    background-image: url(../images/cart_inactive.png)
+}
+
+
+div.col-sm-3.cart_active:hover {
+    padding-left:0px;   
+    display:block;
+    width:20px;
+    height:20px;
+    background-image: url(../images/cart.png)
+}
+
+
+.price {
+    margin-right:10px;  
+    padding-right:17px;
+    border-right:1px #E6E7E8 solid;
+}
+
+div.col-sm-offset-2.col-sm-3.price {
+    padding-right:0px;   
+}
+
+
+
+
+
+
+
+.lookbook_images {
+       
+}
+
+
+
+
+
+div.item_container {
+    background-color:#F1F2F2;
+    height:700px;
+    padding-top:100px;
+    position:relative;
+    z-index:5;
+    top:0;
+    left:0;
+}
+
+.items_details_pg {
+    padding-top:100px;
+    position:absolute;
+    z-index:2;
+    top:0px;
+    left:0;
+    height:1030px;
+}
+
+.rightcol {
+    background-color:#000000;
+    height:2000px;
+    display: block;
+}
+
+.product_shot {
+    
+}
+
+
+.product_closeups {
+    width:30px;
+    height:30px;
+    border:1px solid black;
+}
+
+.dropdown_wrapper {
+    margin-top:50px;
+    border-top:1px solid black;
+    padding-top:20px;
+}
+
+.addtocart {
+    background-color:#000000;
+    width:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+#blog {
+    background-color:#000000;
+    height:1030px;
+}
+
+.blog_tag {
+    color:#000000;
+    background-color:#ffffff;
+    border-top:4px solid #000000;
+}
+
+.blog_post {
+    margin-top:10px; 
+    margin-left:0px;
+    color:#ffffff;
+}
+
+div.blog_title.col-sm-offset-1.col-sm-11 {
+    padding-left:0px;
+}
+
+#copywrite {
+    margin-top:30px;
+}
+
+.footer_credits {
+    padding-top:20px;
+    padding-bottom:20px;
+    border-top:1px solid #414042;
+    text-align: center;   
+}
+
+footer {
+    background-color:black;
+    padding-top:20px;
+}
+
+.footer_headings {
+    color:#ffffff;   
+}
+
+.contact {
+    margin-left:20px;
+    color:#808285;
+}
+
+.about {
+    color:#808285;
+    margin-left:20px;
+}
+
+.connect, .stay_updated {
+    color:#ffffff;
+    padding-bottom:10px;
+}
+
+.fb_wrapper {
+    margin-right:20px;   
+}
+
+.fb_icon {
+    display:block;
+    width:7px;
+    height:18px;
+    background-image:url(../images/fb_icon.png);  
+   
+}
+
+.fb_icon:hover {
+    display:block;
+    width:7px;
+    height:18px;
+    background-image:url(../images/fb_icon_hover.png);  
+}
+
+.twitter_wrapper {
+    margin-right:10px;   
+}
+
+.twitter_icon {
+    display:block;
+    width:19px;
+    height:18px;
+    background-image:url(../images/twitter.png);   
+}
+
+.twitter_icon:hover {
+    display:block;
+    width:19px;
+    height:18px;
+    background-image:url(../images/twitter_hover.png);   
+}
+
+.instagram_wrapper {
+    margin-left:10px;
+}
+
+.instagram_icon {
+    display:block;
+    width:22px;
+    height:18px;
+    background-image:url(../images/instagram_icon.png);   
+}
+
+.instagram_icon:hover {
+    display:block;
+    width:22px;
+    height:18px;
+    background-image:url(../images/instagram_icon_hover.png) ;  
+}
+
+
+input.form-control {
+     background-color: #000000;
+      border: 1px solid #808285;
+    border-radius: 0px;
+    margin-bottom:50px;
+}
+
+input.form-control::-moz-placeholder {
+  color: #414042;
+  opacity: 1;
+}
+input.form-control:-ms-input-placeholder {
+  color: #414042;
+}
+input.form-control::-webkit-input-placeholder {
+  color: #414042;
+}
+
+.sm_icon {
+    margin-right:15px;   
+}
