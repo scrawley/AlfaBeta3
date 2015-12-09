@@ -73,7 +73,9 @@ nav {
 }
 
 .cart_amount_icon {
-    margin-bottom:10px;   
+    padding-left:10px;
+    margin-bottom:10px; 
+    margin-top:-5px;
 }
 
 div#owl-demo.owl-carousel .item img{
@@ -145,9 +147,14 @@ a:hover > div.col-sm-offset-1.col-sm-2.logo_wrapper > div.logo {
 }
 
 .similar_tag {
+    margin-top:150px;
     background-color: #000000;
     color:#ffffff;
-    width:150px;
+    width:100px;
+}
+
+.similar_items {
+    margin-top:75px;   
 }
 
 #items {
@@ -200,7 +207,6 @@ div.col-sm-1.item_letter_tab {
 }
 
 .letter_vee {
-    padding-left:10px;
 }
 
 .cart {
@@ -225,11 +231,40 @@ div.col-sm-3.cart_active:hover {
     background-image: url(../images/cart.png)
 }
 
+.popup_zee, .popup_elle, .popup_vee, .popup_kay, .popup_eff {
+    z-index:10;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#f3f3f4;
+  
+    padding-top:20px;
+    padding-left:10px;
+    padding-bottom:20px;
+    margin-top:50px;
+    margin-left:80px;
+    width:600px;
+    -webkit-box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
+box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
+}
+
+
+
+a.close_window_link > h4 {
+    color:#b3b3b3;
+    text-decoration: none;
+}
+
+a.close_window_link:hover > h4 {
+    color:#000000;
+    text-decoration: none;
+}
+
 
 .price {
     margin-right:10px;  
     padding-right:17px;
-    border-right:1px #E6E7E8 solid;
 }
 
 div.col-sm-offset-2.col-sm-3.price {
@@ -296,8 +331,10 @@ div.item_container {
 .dropdown_wrapper {
     margin-top:10px;
     border-top:1px solid black;
-    padding-top:15px;
+    padding-top:0px;
+    margin-left:-10px;
 }
+
 
 .dropdown_size {
     margin-left:10px;
@@ -312,20 +349,22 @@ div.item_container {
     padding-bottom:20px;
     color:#ffffff;
     text-align: center;
-    margin-top:90px;
+    margin-top:100px;
 }
 
-.addtocart:hover  {
+.addtocart:hover {
     background-color: #f3f3f4;
     width:200px;
     padding-top:20px;
     padding-bottom:20px;
     color:#000000;
     text-align: center;
-    margin-top:90px;
+    margin-top:100px;
     border:1px solid #000000;
     text-decoration: none;
 }
+
+
 
 .clothing_detail {
     padding-top:50px;
@@ -345,12 +384,15 @@ div.item_container {
 }
 
 .item_price {
-    margin-top:30px; 
+    margin-top:80px; 
      letter-spacing: 1px
 }
 
 .quantity_size {
-    margin-right:20px;   
+    margin-right:20px; 
+    padding-right:20px;
+    margin-top:10px;
+    border-right: 1px solid black;
 }
 
 a:hover > div> .addtocart > h4 {
