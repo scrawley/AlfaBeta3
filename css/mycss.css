@@ -131,7 +131,68 @@ a:hover > div.col-sm-offset-1.col-sm-2.logo_wrapper > div.logo {
 }
 
 
+.lookbook_pics {
+    margin-bottom:30px;   
+}
 
+.lookbook_pic {
+    width:100%;   
+}
+
+.lookbook_pic_2 {
+    margin-top:30px;
+    width:100%;   
+}
+
+.veetee {
+    width:100%;
+    margin-top:-50px;
+    margin-left:50px;
+}
+
+.efftee {
+    width:100%;
+    margin-top:-50px;
+    margin-left:50px;
+}
+
+.efftee2 {
+    width:100%;
+    margin-left:5px;
+}
+
+.veetee2 {
+    margin-left:20px;   
+}
+
+.homeveetee {
+    margin-left:15px;   
+}
+
+.homekaytee {
+    margin-left:20px;   
+}
+
+.homeefftee {
+    margin-left:10px;   
+}
+
+.kaytee {
+    margin-top:-50px;
+    margin-left:50px;
+   width:100%;  
+}
+
+.kaytee2 {
+    margin-left:15px;
+width:90%;
+}
+
+.zeetee {
+    margin-top:-50px;
+    margin-left:50px;
+   width:100%;  
+}
 
 .bottom_section_home {
     margin-top:-113px;
@@ -242,8 +303,8 @@ div.col-sm-3.cart_active:hover {
     padding-left:10px;
     padding-bottom:20px;
     margin-top:50px;
-    margin-left:80px;
-    width:600px;
+    margin-left:50px;
+    width:550px;
     -webkit-box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
 -moz-box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
 box-shadow: 0px -2px 40px -2px rgba(0,0,0,0.61);
@@ -261,6 +322,9 @@ a.close_window_link:hover > h4 {
     text-decoration: none;
 }
 
+a.close_window_link > h4:hover {
+    text-decoration: none;
+}
 
 .price {
     margin-right:10px;  
@@ -381,6 +445,10 @@ div.item_container {
 
 .item_name {
     letter-spacing: 1px;   
+}
+
+.item_name_popup {
+    margin-top:0px;
 }
 
 .item_price {
